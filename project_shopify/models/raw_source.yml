@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: raw
+    database: MYDB
+    schema: RAW
+    tables:
+      - name: orders
+      - name: customers
+      - name: products
+      - name: payment_transactions
+      - name: inventory_levels
+      - name: shipments
+      - name: campaign_metadata
+      - name: customer_touches
+      - name: website_analytics
